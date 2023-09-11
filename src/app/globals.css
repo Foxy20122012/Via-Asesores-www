@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.two-lines-ellipsis {
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* Muestra solo 2 líneas de texto */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
