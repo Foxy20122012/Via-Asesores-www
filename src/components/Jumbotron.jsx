@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/solid'
-import Cards from './Cards'
+
 
 const Jumbotron = () => {
   const [slideNumber, setSlideNumber] = useState(0)
@@ -60,7 +60,7 @@ const Jumbotron = () => {
       { area: 'Administración y Finanzas', nombre: 'Smart Analytics', descripcion: 'Genere dashboard gerenciales en solo dos horas para la toma de decisiones.', logo: 'https://www.via-asesores.com/logos/logo_horizontal/smartanalytics_horizontal_logo.svg', url: 'https://qa.via-asesores.com/smartanalytics', visible: true },
       { area: 'Administración y Finanzas', nombre: 'Smart ERP', descripcion: 'Gestione los procesos administrativos financieros integrados, haciendo más eficiente la gestión de su negocio.', logo: 'https://www.via-asesores.com/logos/logo_horizontal/smarterp_horizontal_logo.svg', url: 'https://qa.via-asesores.com/sp_login', visible: false },
       { area: 'Administración y Finanzas', nombre: 'Smart Operation', descripcion: 'Administre y controle las tareas asignadas al personal (interno o externo) fuera de la empresa y control del inventario utilizado.', logo: 'https://www.via-asesores.com/logos/logo_horizontal/smartoperation_horizontal_logo.svg', url: 'https://gt.via-asesores.com/smartoperation', visible: false },
-      { area: 'Administración y Finanzas', nombre: 'Smart Buy', descripcion: 'Reduzca costos en la adquisición de productos y servicios, utilizando métodos de subasta inversa.', logo: 'https://www.via-asesores.com/logos/logo_horizontal/smartbuy_horizontal_logo.svg', url: 'https://qa.via-asesores.com/smartbuy', visible: false }
+      { area: 'Administración y Finanzas', nombre: 'Smart Buy', descripcion: 'Reduzca costos en la adquisición de productos y servicios, utilizando métodos de subasta inversa.', logo: 'https://www.via-asesores.com/logos/logo_horizontal/smartbuy_horizontal_logo.svg', url: 'https://gt.via-asesores.com/desarrollo/smartbuy/', visible: false }
     ]
 
     return (

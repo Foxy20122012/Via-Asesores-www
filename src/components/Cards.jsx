@@ -13,7 +13,7 @@ const Cards = (props) => {
     >
       <div className="bg-white border border-gray-200 rounded-lg shadow-md">
         <div
-          className="bg-blue-500 h-1 w-full" // Línea de color en la parte superior sin redondeo
+          className="bg-sky-700 h-1 w-full" // Línea de color en la parte superior sin redondeo
         ></div>
         <img
           className="w-full h-48 object-fit" // Ajusta la altura aquí (por ejemplo, h-48)

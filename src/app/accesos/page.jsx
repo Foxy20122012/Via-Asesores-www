@@ -11,7 +11,8 @@ const tarjetas = [
       "https://www.via-asesores.com/logos/logo_horizontal/smartmonitor_horizontal_logo.svg",
     imageAlt: "Smart Monitor",
     title: "smart monitor",
-    description:"Monitoreo proactivo de su infraestructura de: red, base de datos, web site, eMail, entre otros, ayudando a lograr la continuidad del negocio.",
+    description:
+      "Monitoreo proactivo de su infraestructura de: red, base de datos, web site, eMail, entre otros, ayudando a lograr la continuidad del negocio.",
     linkUrl: "https://www.via-asesores.com/smartmonitor/",
   },
   {
