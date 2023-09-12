@@ -116,12 +116,12 @@ const Accesos = () => {
         text="Nuestra cartera de productos y servicios permite la mejora de procesos, de la productividad y eficiencia; así como la toma de decisiones oportuna para una mejora continua en diferentes tipos de industria."
         imageUrl="https://www.via-asesores.com/assets/img/svg/Authentication_Monochromatic.svg"
         imageAlt="Imagen"
-        backgroundColor="#0074E4"
+        backgroundColor="#0d566a"
         // className="bg-green-500"
 
       />
 
-      <div className="flex flex-col  md:flex-row md:flex-wrap justify-center">
+      <div className="flex flex-col  md:flex-row md:flex-wrap md:flex md:justify-center justify-center">
         {tarjetas.map((tarjeta, index) => (
           <Cards
             key={index}

@@ -16,7 +16,7 @@ const Cards = (props) => {
           className="bg-sky-700 h-1 w-full" // Línea de color en la parte superior sin redondeo
         ></div>
         <img
-          className="w-full h-48 object-fit" // Ajusta la altura aquí (por ejemplo, h-48)
+          className="w-full h-48 object-fit md:h-48" // Ajusta la altura aquí (por ejemplo, h-48)
           src={props.imageUrl}
           alt={props.imageAlt}
         />
