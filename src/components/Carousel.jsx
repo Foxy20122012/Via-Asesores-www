@@ -26,57 +26,54 @@ const Carousel = () => {
       "https://www.via-asesores.com/logos/logo_horizontal/smartanalytics_horizontal_logo.svg";
     const sinceLabel = "BENEFICIOS";
     const sloganLabel =
-      "Analice los KPI de las áreas de negocio (departamentos) de su empresa, definiendo los dashboard  con sus gráficas que le permitan tomar mejores decisiones desde Smart Analitycs.";
-    const sloganLabel2 = "Genere dashboard en 2 horas. ";
-    const sloganLabel3 = "Genere dashboard en 2 horas. ";
-    const sloganLabel4 = "Genere dashboard en 2 horas. ";
-    const sloganLabel5 = "Genere dashboard en 2 horas. ";
-
+      "Analice los KPI de las áreas de negocio (departamentos) de su empresa, definiendo los dashboard con sus gráficas que le permitan tomar mejores decisiones desde Smart Analitycs.";
+    const sloganLabel2 = "Genere dashboard en 2 horas.";
+    const sloganLabel3 = "Genere dashboard en 2 horas.";
+    const sloganLabel4 = "Genere dashboard en 2 horas.";
+    const sloganLabel5 = "Genere dashboard en 2 horas.";
+  
     const orbisLogo =
       "https://www.via-asesores.com/logos/logo_horizontal/orbistechnology_logo.svg";
     const bgImage = "/Smart Analytics.jpeg";
-
+  
     return (
-      <div>
-        <div className="flex flex-col ml-32">
-          <div className="rounded-md border-t  p-2 flex ml-36">
-            <img
-              src={productLogo}
-              className="h-20 flex ju "
-              alt="VIA Asesores"
-            />
-          </div>
+      <div className="">
+        <div className="rounded-md border-t p-2 flex md:ml-52 ml-10">
+          <img
+            src={productLogo}
+            className="h-16 md:h-20 w-auto"
+            alt="VIA Asesores"
+          />
         </div>
         <div className="rounded-md border-t flex p-2">
           {/* Sección de las dos columnas */}
-          <div className="flex flex-col md:flex-row items-center w-full">
+          <div className="flex flex-col xs:flex-cols md:flex-row items-center w-full">
             {/* Columna izquierda */}
-            <div className="w-full md:w-1/2 px-4">
-              <div className="space-y-6 py-8 text-base leading-7 text-gray-600">
-                <p className="text-md md:text-xl text-center text-justify">
+            <div className="w-full md:w-1/2 px-4 flex justify-center">
+              <div className="space-y-4 md:space-y-6 py-4 md:py-8 text-sm md:text-base leading-6 text-gray-600 ">
+                <p className="text-md md:text-lg  text-justify ml-20 md:ml-0">
                   {sloganLabel}
                 </p>
               </div>
             </div>
-
+  
             {/* Agregar una línea vertical */}
             <div className="border-l border-gray-300 h-[90%] invisible md:visible"></div>
-
+  
             {/* Columna derecha */}
             <div className="w-full md:w-1/2 px-4">
-              <div className="space-y-6 py-8 text-base leading-7 text-gray-600">
-                <h1 className="text-xll md:text-xl text-center">
-                  {sinceLabel}
-                </h1>
-                <p className="text-md md:text-xl text-center">{sloganLabel2}</p>
-                <p className="text-md md:text-xl text-center">{sloganLabel3}</p>
-                <p className="text-md md:text-xl text-center">{sloganLabel4}</p>
-                <p className="text-md md:text-xl text-center">{sloganLabel5}</p>
-                <p className="text-md md:text-xl text-center">{sloganLabel5}</p>
+              {/* Este contenido solo se muestra en pantallas mayores a `md` */}
+              <div className="hidden md:block space-y-4 md:space-y-6 py-4 md:py-8 text-sm md:text-base leading-6 text-gray-600">
+                <h1 className="text-lg md:text-xl text-center">{sinceLabel}</h1>
+                <p className="text-md md:text-lg text-center">{sloganLabel2}</p>
+                <p className="text-md md:text-lg text-center">{sloganLabel3}</p>
+                <p className="text-md md:text-lg text-center">{sloganLabel4}</p>
+                <p className="text-md md:text-lg text-center">{sloganLabel5}</p>
+                <p className="text-md md:text-lg text-center">{sloganLabel5}</p>
               </div>
             </div>
           </div>
-
+  
           {/* Imagen superior derecha */}
           <div className="collapse md:visible md:my-auto w-full md:w-1/2 ml-6">
             <img
@@ -86,26 +83,26 @@ const Carousel = () => {
             />
           </div>
         </div>
-
-        <div className="grid grid-cols-3 gap-4">
-          <div className="pt-8 text-base font-semibold leading-7 self-center inline">
+  
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="pt-4 md:pt-8 text-sm md:text-base font-semibold leading-6 md:leading-7 self-center">
             <img
               src={orbisLogo}
-              className="w-48 place-self-center"
+              className="w-32 md:w-48 mx-auto"
               alt="Orbis Technology"
             />
           </div>
-          <div className="pt-8 text-base font-semibold leading-7 self-center inline">
+          <div className="pt-4 md:pt-8 text-sm md:text-base font-semibold leading-6 md:leading-7 self-center">
             <img
               src={orbisLogo}
-              className="w-48 place-self-center"
+              className="w-32 md:w-48 mx-auto"
               alt="Orbis Technology"
             />
           </div>
-          <div className="pt-8 text-base font-semibold leading-7 self-center inline">
+          <div className="pt-4 md:pt-8 text-sm md:text-base font-semibold leading-6 md:leading-7 self-center">
             <img
               src={orbisLogo}
-              className="w-48 place-self-center"
+              className="w-32 md:w-48 mx-auto"
               alt="Orbis Technology"
             />
           </div>
@@ -113,6 +110,8 @@ const Carousel = () => {
       </div>
     );
   };
+  
+  
 
   const Slide002 = () => {
     const viaLogo =
