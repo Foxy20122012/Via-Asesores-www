@@ -22,7 +22,7 @@ const Navbar = () => {
 
   const Marca = () => {
     return (
-      <a href="https://www.via-asesores.com" className="flex items-center ml-auto">
+      <a href="https://www.via-asesores.com" className="flex items-center md:flex md:justify-start md:mx-auto ml-auto ">
         <img
           src="https://www.via-asesores.com/logos/logo_vertical/viaasesores_vertical_logo.svg"
           className="h-12"
