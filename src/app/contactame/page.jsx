@@ -5,6 +5,7 @@ import Productos from "@/components/Productos";
 import InfoFusion from "@/components/InfoFusion";
 import ContactForm from "@/components/Contactame";
 import GoogleMap from "@/components/GoogleMap";
+import Footer from "@/components/Footer";
 
 const Contactame = () => {
   const ViaAsesores = { latitude: 14.5889022, longitude: -90.5228879 };
@@ -49,6 +50,7 @@ const Contactame = () => {
 
       <Clientes />
       <Productos />
+      <Footer/>
     </div>
   );
 };
