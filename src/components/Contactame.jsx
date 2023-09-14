@@ -59,7 +59,7 @@ function ContactForm() {
               className="block mb-2 text-sm font-medium text-gray-900"
             >
               Asunto
-              <BiAlignMiddle className="flex mx-auto text-[#3fccebfa]" />
+              <BiAlignMiddle className="flex mx-auto text-sky-700" />
             </label>
             <input
               type="text"
@@ -75,7 +75,7 @@ function ContactForm() {
               className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
             >
               Tu mensaje
-              <BsFillEnvelopeFill className="flex mx-auto text-[#3fccebfa]" />
+              <BsFillEnvelopeFill className="flex mx-auto text-sky-700" />
             </label>
             <textarea
               name="mensaje"
@@ -88,7 +88,7 @@ function ContactForm() {
           <button
             type="submit"
             value="Enviar"
-            className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 bg-[#3fccebfa] hover:bg-[#67c8e6fa]"
+            className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 bg-sky-700 hover:bg-sky-600"
           >
             Enviar
             <BsFillCursorFill className="flex mx-auto text-[#fffffffa]" />

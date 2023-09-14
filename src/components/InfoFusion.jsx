@@ -6,7 +6,7 @@ const InfoFusion = (props) => {
         {/* Columna izquierda para el título y el texto */}
         <div className="md:w-1/2 md:pr-4 ">
           <h2 className="text-2xl font-bold md:mt-36 text-center uppercase ">{title}</h2>
-          <p className="text-gray-700 text-center md:ml-10 text-justify">
+          <p className="text-gray-700 text-center md:ml-10 text-justify md: mt-8">
             {text}
           </p>
         </div>

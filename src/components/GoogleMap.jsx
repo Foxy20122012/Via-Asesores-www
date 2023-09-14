@@ -30,7 +30,7 @@ function GoogleMap({ latitude, longitude }) {
     } else {
       // Si no está disponible, esperar a que se cargue
       const script = document.createElement('script');
-      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDaeEzhrrV_OKvK8288Kc069ijQuwdeL9o&libraries=places`;
+      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyCJCuXcHaTKa_JH7X1i5tA-aTwQPdSv0jg&libraries=places`;
       script.async = true;
 
       script.onload = onMapLoad; // Llamar a la función onMapLoad cuando se cargue el script
