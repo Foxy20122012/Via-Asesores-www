@@ -63,7 +63,7 @@ const NosotrosPage = () => {
          a través de herramientas tecnológicas de calidad mundial. Desarrollos A La Medida
          A través del análisis, diseño, desarrollo de tecnología. Administración de Proyectos.
          Formación empresarial."
-        imageUrl="/servicios.jpeg"
+        imageUrl="Nosotros.jpeg"
         imageAlt="Descripción de la imagen personalizada"
       />
       
