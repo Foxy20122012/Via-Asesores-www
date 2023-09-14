@@ -95,7 +95,7 @@ const ServiciosTiPage = () => {
   return (
     <div>
       <Navbar />
-      <h1 className="text-center">Administración y Finanzas. </h1>
+      {/* <h1 className=" text-center text-xl font-bold">Administración y Finanzas. </h1> */}
       <Carousel  slides={slides}/>
       <Clientes />
       <Productos />

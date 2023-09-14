@@ -17,9 +17,17 @@ const Clientes = () => {
     { tipoCliente: 'Nacionales', nombre: '5B', logo: "https://www.via-asesores.com/assets/img/clients/5b.png" },
     { tipoCliente: 'Nacionales', nombre: 'Agexport', logo: "https://www.via-asesores.com/assets/img/clients/agexport.png" },
     { tipoCliente: 'Nacionales', nombre: 'Administrador del Mercado Mayorista', logo: "https://www.via-asesores.com/assets/img/clients/amm.png" },
-    { tipoCliente: 'Instituciones Públicas' },
-    { tipoCliente: 'Internacionales' },
-
+    { tipoCliente: 'Instituciones Públicas',nombre: 'Ministerio De Gobernación', logo:"/Congreso.jpeg"},
+    { tipoCliente: 'Instituciones Públicas',nombre:'Congreso De La Republica', logo:"https://www.guatemala.gob.gt/wp-content/uploads/2020/12/logo-de-gobierno-de-guatemala.jpg"},
+    { tipoCliente: 'Instituciones Públicas',nombre:'fonagro', logo:"/fonagro.jpeg" },
+    { tipoCliente: 'Instituciones Públicas',nombre:'Ministerio De Finanzas Publicas', logo:"https://transparenciapresupuestaria.minfin.gob.gt/wp-content/uploads/2021/04/Logo-minfin-gob-1-2048x716.png" },
+    { tipoCliente: 'Instituciones Públicas',nombre:'Ine', logo:"https://upload.wikimedia.org/wikipedia/commons/0/04/Logotipo_del_Instituto_Nacional_de_Estad%C3%ADstica_de_Guatemala.png" },
+    { tipoCliente: 'Instituciones Públicas',nombre:'Villa Nueva', logo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZk88YZgoFBUHHNg0taCLjlh1XqX-ICikGg-0bq0848ly2chFTW4B6h22uVFofKFi97w8&usqp=CAU" },
+    { tipoCliente: 'Instituciones Públicas',nombre:'Santiago Atitlan', logo:"https://munisantiagoatitlan.gob.gt/wp-content/uploads/2021/10/Logo-municipalidad-santiago-atitltan.png" },
+    { tipoCliente: 'Internacionales',nombre:'Telefonica', logo:"https://upload.wikimedia.org/wikipedia/commons/2/25/Telefonica_Logo.svg" },
+    { tipoCliente: 'Internacionales',nombre:'Banco Nacional', logo:"https://geoinn.com/wp-content/uploads/2021/06/banco-nacional-logo.png" },
+    { tipoCliente: 'Internacionales',nombre:'Prysma', logo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2AqCFpUD8OTW3NT1xJYxiotNVSWckAUYiO3UsMkJaabGxabOAM18i3yWkni0mY8GnPBQ&usqp=CAU" },
+    { tipoCliente: 'Internacionales',nombre:'', logo:"" },
   ]
 
   const tiposCliente = [...new Set(clientes.map((item) => item.tipoCliente))]
