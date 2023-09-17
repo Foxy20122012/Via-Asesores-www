@@ -4,6 +4,7 @@ import Clientes from "@/components/Clientes";
 import Productos from "@/components/Productos";
 import InfoBlock from "@/components/InfoBlock";
 import Cards from "@/components/Cards";
+import Footer from "@/components/Footer";
 
 const Clients = () => {
   const clientsNacionales = [
@@ -125,6 +126,7 @@ const Clients = () => {
       </div>
       <Clientes />
       <Productos />
+      <Footer />
     </div>
   );
 };

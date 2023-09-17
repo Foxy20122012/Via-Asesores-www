@@ -3,6 +3,7 @@ import Navbar from "@/components/Nabvar";
 import Carousel from "@/components/Carousel";
 import Clientes from "@/components/Clientes";
 import Productos from "@/components/Productos";
+import Footer from "@/components/Footer";
 
 const ProcessPage = () => {
 
@@ -95,6 +96,7 @@ const ProcessPage = () => {
       <Carousel  slides={slides}/>
       <Clientes />
       <Productos />
+      <Footer />
     </div>
   );
 };

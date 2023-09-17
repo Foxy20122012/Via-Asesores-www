@@ -6,6 +6,7 @@ import InfoFusion from "@/components/InfoFusion";
 import InfoBlock from "@/components/InfoBlock";
 import Cards from "@/components/Cards";
 import CardInfo from "@/components/CardInfo";
+import Footer from "@/components/Footer";
 
 
 const NosotrosPage = () => {
@@ -100,6 +101,7 @@ const NosotrosPage = () => {
 
       <Clientes />
       <Productos />
+      <Footer/>
     </div>
   );
 };

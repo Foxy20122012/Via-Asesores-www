@@ -3,6 +3,7 @@ import Navbar from "@/components/Nabvar";
 import Clientes from "@/components/Clientes";
 import Productos from "@/components/Productos";
 import InfoFusion from "@/components/InfoFusion";
+import Footer from "@/components/Footer";
 
 const NoticiasPage = () => {
   return (
@@ -18,6 +19,7 @@ const NoticiasPage = () => {
       />
       <Clientes />
       <Productos />
+      <Footer/>
     </div>
   );
 };

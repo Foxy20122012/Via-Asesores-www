@@ -4,6 +4,7 @@ import Clientes from "@/components/Clientes";
 import Productos from "@/components/Productos";
 import InfoBlock from "@/components/InfoBlock";
 import CardInfo from "@/components/CardInfo";
+import Footer from "@/components/Footer";
 
 const ServiciosPage = () => {
   const infoCard = [
@@ -56,6 +57,7 @@ const ServiciosPage = () => {
 
       <Clientes />
       <Productos />
+      <Footer />
     </div>
   );
 };

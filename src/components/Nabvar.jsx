@@ -165,7 +165,7 @@ const Navbar = () => {
 
     return (
       <a
-        href="/clientes"
+        href="/accesos"
         className="text-sky-700 bg-gray-100 hover:bg-sky-300 focus:ring-4 focus:ring-sky-100 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2 dark:bg-sky-600 dark:hover:bg-sky-700 focus:outline-none dark:focus:ring-sky-800"
       >
         {accesosLabel}
