@@ -1,10 +1,16 @@
 "use client";
+
+//Apartado de Hooks
+import useHasMounted from "@/hooks/useHasMounted";
+
+//Apartado de Componentes
 import Navbar from "@/components/Nabvar";
 import Clientes from "@/components/Clientes";
 import Productos from "@/components/Productos";
 import InfoBlock from "@/components/InfoBlock";
 import Cards from "@/components/Cards";
 import Footer from "@/components/Footer";
+import Loading from "@/components/Loading";
 
 const Clients = () => {
   const clientsNacionales = [
@@ -83,6 +89,10 @@ const Clients = () => {
     
   ];
 
+  const hasMounted = useHasMounted();
+  if (!hasMounted) {
+    return  <Loading />;
+  }
   return (
     <div>
       <Navbar />

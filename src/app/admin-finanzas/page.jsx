@@ -1,9 +1,14 @@
 "use client";
+//Apartado de Hooks
+import useHasMounted from "@/hooks/useHasMounted";
+
+//Apartado de Componentes
 import Navbar from "@/components/Nabvar";
 import Carousel from "@/components/Carousel";
 import Clientes from "@/components/Clientes";
 import Productos from "@/components/Productos";
 import Footer from "@/components/Footer";
+import Loading from "@/components/Loading";
 
 const AdminPage = () => {
 
@@ -114,8 +119,12 @@ const AdminPage = () => {
       ],
       bgImage: "/Smart Buy.jpeg",
     },
-    // Puedes agregar más diapositivas aquí
   ];
+
+  const hasMounted = useHasMounted();
+  if (!hasMounted) {
+    return  <Loading />;
+  }
   return (
     <div>
       <Navbar />

@@ -1,4 +1,9 @@
 "use client";
+//Apartado de Hooks
+import useHasMounted from "@/hooks/useHasMounted";
+
+//Apartado de Componentes 
+import Loading from "@/components/Loading";
 import Navbar from "@/components/Nabvar";
 import Carousel from "@/components/Carousel";
 import Clientes from "@/components/Clientes";
@@ -89,6 +94,11 @@ const ProcessPage = () => {
     },
     // Puedes agregar más diapositivas aquí
   ];
+
+  const hasMounted = useHasMounted();
+  if (!hasMounted) {
+    return  <Loading />;
+  }
   return (
     <div>
       <Navbar />

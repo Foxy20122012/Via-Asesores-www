@@ -1,10 +1,16 @@
 "use client";
+
+//Apartado de Hooks
+import useHasMounted from "@/hooks/useHasMounted";
+
+//Apartado de Componentes
 import Cards from "@/components/Cards";
 import Navbar from "@/components/Nabvar";
 import Clientes from "@/components/Clientes";
 import Productos from "@/components/Productos";
 import InfoBlock from "@/components/InfoBlock";
 import Footer from "@/components/Footer";
+import Loading from "@/components/Loading";
 
 const tarjetas = [
   {
@@ -109,6 +115,12 @@ const tarjetas = [
 ];
 
 const Accesos = () => {
+
+  const hasMounted = useHasMounted();
+  if (!hasMounted) {
+    return  <Loading />;
+  }
+  
   return (
     <div>
       <Navbar />
@@ -118,8 +130,6 @@ const Accesos = () => {
         imageUrl="https://www.via-asesores.com/assets/img/svg/Authentication_Monochromatic.svg"
         imageAlt="Imagen"
         backgroundColor="#0d566a"
-        // className="bg-green-500"
-
       />
 
       <div className="flex flex-col  md:flex-row md:flex-wrap md:flex md:justify-center justify-center">

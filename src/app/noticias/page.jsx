@@ -1,4 +1,9 @@
 "use client";
+//Apartado de Hooks
+import useHasMounted from "@/hooks/useHasMounted";
+
+//Apartado de Componentes
+import Loading from "@/components/Loading";
 import Navbar from "@/components/Nabvar";
 import Clientes from "@/components/Clientes";
 import Productos from "@/components/Productos";
@@ -6,6 +11,11 @@ import InfoFusion from "@/components/InfoFusion";
 import Footer from "@/components/Footer";
 
 const NoticiasPage = () => {
+
+  const hasMounted = useHasMounted();
+  if (!hasMounted) {
+    return  <Loading />;
+  }
   return (
     <div>
       <Navbar />

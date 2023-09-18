@@ -7,6 +7,7 @@ import environment from '@/utils/environment'
 import { sprCatalogosS } from '@/utils/spr'
 import { getEnv } from '@/utils/funciones'
 
+
 const i18n = rosetta()
 
 export const defaultLanguage = 'es'
