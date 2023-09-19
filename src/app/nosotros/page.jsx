@@ -74,7 +74,7 @@ const NosotrosPage = () => {
          A través del análisis, diseño, desarrollo de tecnología. Administración de Proyectos.
          Formación empresarial."
         imageUrl="Nosotros.jpeg"
-        imageAlt="Descripción de la imagen personalizada"
+        imageAlt="Nosotros"
       />
       
       <InfoBlock

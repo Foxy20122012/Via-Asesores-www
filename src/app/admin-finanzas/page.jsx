@@ -9,6 +9,7 @@ import Clientes from "@/components/Clientes";
 import Productos from "@/components/Productos";
 import Footer from "@/components/Footer";
 import Loading from "@/components/Loading";
+import InfoFusion from "@/components/InfoFusion";
 
 const AdminPage = () => {
 
@@ -128,9 +129,18 @@ const AdminPage = () => {
   return (
     <div>
       <Navbar />
-      <h1 className="text-center">Administración y Finanzas. </h1>
+      <InfoFusion
+        title="FINANZAS"
+        text="Productos diseñados a la medidas para el el area de gestión financiera 
+        y ayudar a automatizar procesos. Administrar procesosde compras y procesos de todas las áreas de la organización."
+        imageUrl="https://www.bbva.com/wp-content/uploads/2022/06/BBVA-finanzas-personales-y-corporativas.jpg"
+        imageAlt="Finanzas"
+      />
+     
       <Carousel  slides={slides}/>
-      <Clientes />
+      <div className="mt-36">
+        <Clientes />
+      </div>
       <Productos />
       <Footer />
     </div>

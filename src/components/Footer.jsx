@@ -107,7 +107,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
-        <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="https://flowbite.com/">Via Asesores</a>. </span>
+        <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="https://www.via-asesores.com/">Via Asesores</a>. </span>
         <div className="flex mt-4 space-x-5 sm:justify-center md:mt-0">
           <a href="https://www.facebook.com/VIAasesoresgt" className="text-gray-400 hover:text-gray-900 dark:hover:text-white">
             <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">

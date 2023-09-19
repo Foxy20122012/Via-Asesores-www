@@ -36,7 +36,7 @@ const Contactame = () => {
         <div className="p-4 ">
           {/* Coloca aquí el contenido que deseas en la columna izquierda */}
 
-          <div className="md:mt-32">
+          <div className="md:mt-36">
             <h1 className="text-center font-bold md:text-3xl text-xl">Via Asesores</h1>
             <p className=" md:mt-10 md:ml-12 text-justify mt-4">Puedes ubicarnos en la Avenida Las Américas 7-30 zona 13, Edificio Los Arcos, 
             Oficina 5A, Ciudad de Guatemala Para poder brindarte una Atención Personalizada.</p>

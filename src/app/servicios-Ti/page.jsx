@@ -9,6 +9,7 @@ import Carousel from "@/components/Carousel";
 import Clientes from "@/components/Clientes";
 import Productos from "@/components/Productos";
 import Footer from "@/components/Footer";
+import InfoFusion from "@/components/InfoFusion";
 
 const ServiciosTiPage = () => {
 
@@ -85,7 +86,6 @@ const ServiciosTiPage = () => {
         "Generamos pantallas de consulta de seguimiento u operativas de sus sistemas para la continuidad del negocio. ",
         "Creamos los dashboard para sus sistemas con gráficos dinámicos que permitan la toma de decisiones a nivel de las diferentes gerencias.",
         "Su área de desarollo se enfoca en garantizar, mantener el conocimiento y la continuidad del negocio.",
-        ""
         // Otros eslóganes
       ],
       logos: [
@@ -106,9 +106,18 @@ const ServiciosTiPage = () => {
   return (
     <div>
       <Navbar />
+      <InfoFusion
+        title="Servicios de TI"
+        text="Productos diseñados a la medidas para el uso de sistematización de procesos basado en las necesidades 
+        del cliente, implementación de tecnologías y herramientas necesarias para el desarrollo de su negocio. "
+        imageUrl="https://www.servicetonic.com/wp-content/uploads/2019/04/herramientas-service-management.png"
+        imageAlt="Servicios de TI"
+      />
       {/* <h1 className=" text-center text-xl font-bold">Administración y Finanzas. </h1> */}
       <Carousel  slides={slides}/>
-      <Clientes />
+      <div className=" md:mt-44">
+        <Clientes />
+      </div>
       <Productos />
       <Footer/> 
     </div>

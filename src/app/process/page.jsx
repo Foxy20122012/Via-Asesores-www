@@ -9,6 +9,7 @@ import Carousel from "@/components/Carousel";
 import Clientes from "@/components/Clientes";
 import Productos from "@/components/Productos";
 import Footer from "@/components/Footer";
+import InfoFusion from "@/components/InfoFusion";
 
 const ProcessPage = () => {
 
@@ -102,9 +103,17 @@ const ProcessPage = () => {
   return (
     <div>
       <Navbar />
-      <h1 className="text-center">Administración y Finanzas. </h1>
+      <InfoFusion
+        title="Procesos Y Recaudación"
+        text="Linea de Productos desarrollados a la medida especializados en la recepcion de pagos con tarjeta 
+        generacion de comprobantes especializador en procesos su vigilancia y agilización de procesos, redución de tiempos y costos. "
+        imageUrl="https://www.etondigital.com/wp-content/uploads/2019/07/e-learning-02-02.png"
+        imageAlt="Servicios de TI"
+      />
       <Carousel  slides={slides}/>
-      <Clientes />
+      <div className="md:mt-36">
+        <Clientes />
+      </div>
       <Productos />
       <Footer />
     </div>
